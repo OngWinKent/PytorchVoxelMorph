@@ -208,10 +208,13 @@ The difference image and loss plot help inspect behavior, but they are not a com
 If this implementation or the original method informs your work, cite the paper and refer to the official VoxelMorph project:
 
 ```text
-Balakrishnan, G., Zhao, A., Sabuncu, M. R., Guttag, J., & Dalca, A. V.
-An Unsupervised Learning Model for Deformable Medical Image Registration.
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
-https://doi.org/10.1109/CVPR.2018.00860
+@inproceedings{balakrishnan2018unsupervised,
+  title={An unsupervised learning model for deformable medical image registration},
+  author={Balakrishnan, Guha and Zhao, Amy and Sabuncu, Mert R and Guttag, John and Dalca, Adrian V},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={9252--9260},
+  year={2018}
+}
 ```
 
 Official code: https://github.com/voxelmorph/voxelmorph
