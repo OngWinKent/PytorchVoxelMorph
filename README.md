@@ -72,7 +72,7 @@ At inference time, `run_inference` follows the same demonstration protocol: it t
 
 The training objective in `utils.train_voxelmorph` is:
 
-$$L = L_{\text{sim}}(F, W) + \lambda L_{\text{smooth}}(u), \qquad \text{where} \lambda=0.05$$
+$$L = L_{\text{sim}}(F, W) + \lambda L_{\text{smooth}}(u), \qquad \lambda=0.05$$
 
 where `F` is fixed, `W` is the warped moving image, and `u` is the predicted displacement field.
 
@@ -215,5 +215,6 @@ https://doi.org/10.1109/CVPR.2018.00860
 ```
 
 Official code: https://github.com/voxelmorph/voxelmorph
-#   P y t o r c h V o x e l M o r p h  
+#   P y t o r c h V o x e l M o r p h 
+ 
  
