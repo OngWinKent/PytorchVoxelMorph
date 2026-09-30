@@ -72,8 +72,6 @@ At inference time, `run_inference` follows the same demonstration protocol: it t
 
 The training objective in `utils.train_voxelmorph` is:
 
-$$L = L_{\text{sim}}(F, W) + \lambda L_{\text{smooth}}(u), \qquad \lambda=0.05$$
-
 where `F` is fixed, `W` is the warped moving image, and `u` is the predicted displacement field.
 
 - **Similarity loss:** `mean((fixed - warped) ** 2)`. This encourages the warped image to match the fixed image in intensity.
